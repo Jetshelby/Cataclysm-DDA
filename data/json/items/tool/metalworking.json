@@ -371,14 +371,6 @@
     "melee_damage": { "bash": 10 }
   },
   {
-    "id": "hotcut_bronze",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
-    "copy-from": "hotcut",
-    "name": { "str": "hotcut" },
-    "material": [ "bronze" ]
-  },
-  {
     "id": "hotcut",
     "type": "ITEM",
     "subtypes": [ "TOOL" ],
@@ -394,6 +386,17 @@
     "color": "light_gray",
     "flags": [ "DURABLE_MELEE" ],
     "melee_damage": { "bash": 6 }
+  },
+  {
+    "id": "hotcut_bronze",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "hotcut",
+    "name": { "str": "bronze hotcut" },
+	"description": "A hardened chisel-like object for metalsmithing made of bronze.  It's used to cut lengths of metal in some metalworking fabrication recipes.",
+	"weight": "880 g",
+	"price": "20 USD",
+    "material": [ "bronze" ]
   },
   {
     "id": "drift",
