@@ -22,7 +22,7 @@
     "type": "requirement",
     "//": "Compatible with legacy flag NAILABLE",
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "nail", 20 ] ] ]
+    "components": [ [ [ "nails", 20, "LIST" ] ] ]
   },
   {
     "id": "vehicle_bolt_install",
