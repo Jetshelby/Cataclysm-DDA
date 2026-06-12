@@ -65,8 +65,8 @@
     "time": "12 m",
     "batch_time_factors": [ 90, 4 ],
     "autolearn": true,
-    "//": "Yield is just over 98% by weight, each output of copper is 400 weight.  Volume of output is massively oversize however.",
-    "result_mult": 21,
+    "//": "If 1 litre of native copper is 98% pure, then its weight is aproximately 8960g. Assuming 95% refining efficiency (best case), we should end up with 8512g of pure copper. Each 'unit' weighs 1/21 of 100g. Were this converted to 'chunks' we should get about 34.",
+    "result_mult": 1752,
     "byproducts": [ [ "platinum_small" ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "fire", -1 ], [ "integrated_welder", 10 ] ] ],
     "components": [ [ [ "chunk_copper", 1 ] ] ]
@@ -121,7 +121,8 @@
     "batch_time_factors": [ 90, 4 ],
     "autolearn": true,
     "//": "Yield is just over 98% by weight, each output of gold is 500 weight.  Volume of output is massively oversize however.",
-    "result_mult": 38,
+    "//": "If yield is 98% and the ores mass is 19.31kg, then we should have 18920g of gold. A single unit of gold is 19g. Therefore, we should have 995 charges.",
+    "result_mult": 10,
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "fire", -1 ], [ "integrated_welder", 10 ] ] ],
     "components": [ [ [ "chunk_gold", 1 ] ] ]
   },
